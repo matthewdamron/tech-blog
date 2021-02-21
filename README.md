@@ -6,9 +6,8 @@ Tech Blog
 - [Description](#description)
 - [User Story](#user-story)
 - [Acceptance Criteria](#Acceptance-criteria)
-- [Screencast](#screencast)
+- [Screenshots](#screenshots)
 - [Installation](#installation)
-- [Usage](#usage)
 - [License](#license)
 - [Language](#language)
 - [Contributors](#contributors)
@@ -61,14 +60,11 @@ WHEN I am idle on the page for more than a set time
 THEN I am automatically signed out of the site
 ```
 
-## Screencast
-<!-- [![Watch the video](./images/note-taker.png)](https://drive.google.com/file/d/1p1HJg4mqLkZWnnwWoGskG6ujtpeNQXxF/view?usp=sharing) -->
+## Screenschots
+![](./images/home.png)
 
 ## Installation
-
-
-## Usage
-
+No installation required live website [Tech Blog](https://matthewdamron-tech-blog.herokuapp.com/)
 
 ## License
 ![GitHub](https://img.shields.io/github/license/matthewdamron/tech-blog)<br />
@@ -77,13 +73,13 @@ This application is covered by the MIT license.
 ## Language
 <img alt="Heroku" src="https://img.shields.io/badge/heroku%20-%23430098.svg?&style=for-the-badge&logo=heroku&logoColor=white"/>
 <img alt="HTML5" src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white"/>
-<img alt="CSS3" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
+<img alt="CSS" src="https://img.shields.io/badge/css3%20-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white"/>
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 <img alt="NodeJS" src="https://img.shields.io/badge/node.js%20-%2343853D.svg?&style=for-the-badge&logo=node.js&logoColor=white"/>
 <img alt="Express.js" src="https://img.shields.io/badge/express.js%20-%23404d59.svg?&style=for-the-badge"/>
 
 ## Contributors
-Matt
+Matt Damron
 
 ## Questions
 - Find me on GitHub: [Matt Damron](https://github.com/matthewdamron)<br />
