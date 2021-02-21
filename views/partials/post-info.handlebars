@@ -1,6 +1,11 @@
 <div class="card w-75">
-  <div class="card-header">
-    {{title}}
+  <div class="d-flex card-header">
+    <div class="me-auto">
+      {{title}}
+    </div>
+    <div>
+      Posted by {{user.username}} on {{format_date created_at}}
+    </div>
   </div>
   <div class="card-body">
     <p class="card-text">
