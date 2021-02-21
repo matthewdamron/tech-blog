@@ -1,18 +1,22 @@
 <article>
   {{!-- <a href="/dashboard"> &larr; Back to dashboard</a> --}}
   <h2 class="m-3">Edit Post</h2>
-  <form class="edit-post-form">
-    <div>
-      <input name="post-title" type="text" value="{{post.title}}" />
-      <textarea name="post-text" rows="3">{{post.text}}</textarea>
+  <form class="w-75 m-4 edit-post-form">
+    <div class="mb-3">
+      <label for="post-title" class="form-lable">Title</label>
+      <input type="text" class="form-control" id="post-title" name="post-title" value="{{post.title}}" />
+    </div>
+    <div class="mb-3">
+      <label for="post-text" class="form-lable">Content</label>
+      <textarea class="form-control" id="post-text" name="post-text" rows="3">{{post.text}}</textarea>
     </div>
     {{!-- <div>
       {{post.vote_count}} {{format_plural "point" post.vote_count}} by you on {{format_date post.created_at}}
       |
       <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div> --}}
-    <button type="submit">Save post</button>
-    <button type="button" class="delete-post-btn">Delete post</button>
+    <button type="submit" class="btn btn-dark">Save post</button>
+    <button type="button" class="btn btn-dark delete-post-btn">Delete post</button>
   </form>
 </article>
 
